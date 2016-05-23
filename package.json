@@ -1,0 +1,19 @@
+{
+  "name": "organizational",
+  "version": "1.0.0",
+  "description": "Organizational Culture for UC Berkeley",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirinapha88/OrganizationalCulture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirinapha88/OrganizationalCulture/issues"
+  },
+  "homepage": "https://github.com/sirinapha88/OrganizationalCulture#readme"
+}
