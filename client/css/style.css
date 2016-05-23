@@ -1,4 +1,7 @@
 body {
+	font-family: Verdana;
+	min-height: 800px !important;
+    max-height: 950px;
 
 }
 
@@ -10,6 +13,10 @@ h1,h2,h3,h4,h5{
 	color: white;
 	height: 120px;
 	line-height:10px;
+}
+.navbar-header h2{
+	font-size: 250%;
+	font-weight: bold;
 }
 #header {
 	font-size: 10pt;

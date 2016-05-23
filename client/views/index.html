@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="cultural">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<title>Welcome</title>
@@ -20,10 +20,17 @@
         </div>
     </nav>
 
+	<div ng-view class="main"> </div>
+
 	<div class="navbar navbar-default" id='footer'>
       <a id="ctl00_lnkContactUs" href="mailto:info@organizationalcultureprofile.com">contact us</a> |
       <span id="ctl00_lblCopyright">Copyright © 2007-2012 organizationalcultureprofile.com</span>
     </div>
 
+
+<!-- AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"> </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.min.js"></script>
 </body>
 </html>
