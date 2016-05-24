@@ -20,7 +20,7 @@
         </div>
     </nav>
 	<div id="mainBody">
-		<div class="col-xs-6 col-sm-2" id="loginForm"> 
+		<div class="col-xs-6 col-sm-2 well" id="loginForm"> 
 			<h4>Administrator Login</h4>
 			<form>
 				<label for="username"></label>
@@ -28,7 +28,10 @@
 				<br>
 				<input type="password" class="form-controller" name="password" placeholder="password" required>
 				<br>
-				<input type="submit"class="btn btn-success" value="submit"><br>
+				<input id="ctl00__login_RememberMe" type="checkbox" name="ctl00$_login$RememberMe">
+				<label for="ctl00__login_RememberMe">Remember me</label>
+				<br>
+				<input type="submit" class="btn btn-info" value="login"><br>
 			</form>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-10">
@@ -38,13 +41,13 @@
 				<br>
 				<p>If you received an e-mail with an access key, please type it in the box below, or better yet, cut and paste it from the original e-mail that you got. Note: The e-mail that you received already contains a link with the access code embeded, so all you need to do is click on that link. If the link doesn't work, use the Access Key provided in the e-mail message.</p>
 				<input type="text" name="accessKey">
-				<input type="submit" name="" value="submit">
+				<input type="submit" name="" class="btn btn-info" value="submit">
 			</div>
 			<div class="well">
 				<h4>Retrieve your Access Key</h4>
 				<p>f you don't know your Access Key, please enter your e-mail address in the box below and hit submit. We'll check to see if you have been setup to provide an evaluation and if so, we'll e-mail you a link to the evaluation page and your Access Key in case the link doesn't work.</p>
 				<input type="text" name="accessKey">
-				<input type="submit" name="" value="submit">		
+				<input type="submit" name="" class="btn btn-info" value="submit">		
 			</div>
 			
 		</div>

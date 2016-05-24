@@ -3,10 +3,11 @@ body {
 }
 
 #mainBody{
-	min-height: 600px;
+	min-height: 650px;
 }
 h1,h2,h3,h4,h5{
 	line-height:20px;
+	font-weight: bold;
 }
 #navbar {
 	background-color: #4db8ff;
@@ -26,7 +27,9 @@ h1,h2,h3,h4,h5{
 #loginForm{
 	color: black;
 }
-
+.well{
+	border-radius: 15px;
+}
 #footer {
 	background-color: #4db8ff;
 	text-align: center;
