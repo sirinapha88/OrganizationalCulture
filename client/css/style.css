@@ -1,10 +1,10 @@
 body {
 	font-family: Verdana;
-	min-height: 800px !important;
-    max-height: 950px;
-
 }
 
+#mainBody{
+	min-height: 600px;
+}
 h1,h2,h3,h4,h5{
 	line-height:20px;
 }
@@ -21,6 +21,10 @@ h1,h2,h3,h4,h5{
 #header {
 	font-size: 10pt;
 	font-weight: bold;
+}
+
+#loginForm{
+	color: black;
 }
 
 #footer {
