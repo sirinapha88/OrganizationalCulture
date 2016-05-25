@@ -1,2 +1,2 @@
 # OrganizationalCulture
-Organizational Culture for UC Berkeley 
+In-depth analysis of company's culture for UC Berkeley 

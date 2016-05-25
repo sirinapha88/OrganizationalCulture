@@ -6,7 +6,9 @@ var express 		= require("Express"),
 	cookieParser  	= require("cookie-parser"),
 	request 		= require("request");
 
+app.get("/", function(req,res){
 
+});
 
 var PORT = process.env.PORT || 3000;
 
