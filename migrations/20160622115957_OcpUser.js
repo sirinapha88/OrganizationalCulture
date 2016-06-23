@@ -2,7 +2,7 @@
 exports.up = function(knex, Promise) {
 	return knex.schema.createTable('OcpUser', function(){
 		table.increments();
-		table.integer('CompanyId');
+		table.integer('CompanyId').references('id').inTable('Company').onDelete('cascade');
 		table.string('EmailAddress');
 		table.string('FirstName');
 		table.string('LastName');
