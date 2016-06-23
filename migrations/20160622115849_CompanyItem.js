@@ -1,9 +1,9 @@
 exports.up = function(knex, Promise) {
 	return knex.schema.createTable('CompanyItem', function(){
 		table.increments();
-		table.integer('CompanyId');
-		table.integer('DimensionId');
-		table.integer('ReverseScore');
+		table.integer('CompanyId').references('id').inTable('Company').onDelete('cascade');
+		table.integer('DimensionId').references('id').inTable('Dimension').onDelete('cascade');
+		table.boolean('ReverseScore');
 		table.integer('Number');
 		table.string('Description');
 		table.date('CreatedOn');

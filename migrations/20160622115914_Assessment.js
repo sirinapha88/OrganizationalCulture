@@ -2,7 +2,7 @@
 exports.up = function(knex, Promise) {
  	return knex.schema.createTable('Assessment', function(){
  		table.increments();
- 		table.integer('CompanyId');
+ 		table.integer('CompanyId').references('id').inTable('CompanyId').onDelete('cascade');
  		table.integer('SortOrder');
  		table.string('Code');
  		table.string('Title');
