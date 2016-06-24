@@ -1,6 +1,7 @@
 var express 		= require("Express"),
 	app 			= express(),
 	bodyParser 		= require("body-parser"),
+	morgan      	= require("morgan"),
 	path  			= require("path"),
 	knex 			= require("../db/knex"),
 	cookieParser  	= require("cookie-parser"),
